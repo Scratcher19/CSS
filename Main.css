@@ -49,7 +49,7 @@ a:visited {
 }
 
 a:hover {
-  color: #06e;
+  color:#00FFFF;
 }
 
 a:focus {
@@ -458,13 +458,13 @@ body {
   font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01);
+  text-shadow: 0 1px 0 rgb(0, 0, 0);
   -webkit-text-stroke: 1px transparent;
   background: #000;
   background-image: url(https://mediadubtrackfm.s3.amazonaws.com/assets/images/backgrounds/mainbg.png);
   background-color: #000;
   font: 1em/1.25em "proxima-nova", sans-serif;
-  color: #CCCCCC;
+  color: rgb(204, 204, 204);
   width: 100%;
   padding: 0;
   overflow-x: hidden;
@@ -493,7 +493,7 @@ body.videoActive .main-page-container {
 
 #warning {
   position: fixed;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   padding: 1.25em;
   top: 30%;
@@ -533,7 +533,7 @@ body.videoActive .main-page-container {
   display: inline-block;
   text-transform: uppercase;
   margin: 1em 0.625em 0 0;
-  color: magenta;
+  color: #00FFFF;
   background: #000;
   padding: 0.45em 1em;
 }
@@ -996,7 +996,7 @@ ul, ol {
   margin: #000 0;
 }
 #ajaxloader_window input.submit {
-  color: magenta;
+  color: #00FFFF;
   padding: 0.188em 0.438em;
   float: right;
   width: auto;
@@ -1218,7 +1218,7 @@ ul.avatar-list li {
 }
 ul.avatar-list li.mod:after, ul.avatar-list li.creator:after, ul.avatar-list li.admin:after, ul.avatar-list li.currentDJ:after {
   content: "MOD";
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   font-weight: bold;
   font-size: 0.65em;
@@ -1262,7 +1262,7 @@ ul.avatar-list li .dubDisplay span {
   text-align: center;
 }
 ul.avatar-list li.downdub {
-  border: 1px solid magenta;
+  border: 1px solid #00FFFF;
 }
 ul.avatar-list li.updub {
   border: 1px solid cyan;
@@ -1304,7 +1304,7 @@ ul.avatar-list li .offline {
   left: 0;
   padding: 2px 0;
   text-align: center;
-  background: magenta;
+  background: #00FFFF;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 10px;
@@ -1387,9 +1387,9 @@ button {
   box-shadow: inset 0 -2px #333;
 }
 button:hover {
-  -moz-box-shadow: inset 0 -2px magenta;
-  -webkit-box-shadow: inset 0 -2px magenta;
-  box-shadow: inset 0 -2px magenta;
+  -moz-box-shadow: inset 0 -2px #00FFFF;
+  -webkit-box-shadow: inset 0 -2px #00FFFF;
+  box-shadow: inset 0 -2px #00FFFF;
 }
 
 /* ============================================================ */
@@ -1486,7 +1486,7 @@ footer#footer_global a {
   border-right: 1px #303030 solid;
 }
 footer#footer_global a:hover {
-  background: magenta;
+  background: #00FFFF;
   color: #000;
 }
 footer#footer_global a .social {
@@ -1519,7 +1519,7 @@ footer#footer_global .container-fluid {
 }
 footer#footer_global .nav-collapse {
   float: right;
-  color: magenta;
+  color: #00FFFF;
 }
 
 #footer {
@@ -1566,7 +1566,7 @@ body.roomview #footer ul {
 #header-global h1 span {
   display: block;
   background-repeat: no-repeat;
-  background-image: url("http://images.dubtrack.fm/hhberclba/image/upload/c_lpad,h_35,w_35/v1400351432/dubtrack_new_logo_fvpxa6.png");
+  background-image: url("#");
   background-position: 0 0;
   height: 35px;
   width: 35px;
@@ -1594,9 +1594,8 @@ body.roomview #footer ul {
   text-align: left;
   text-transform: uppercase;
   z-index: 1001;
-  height: 3em;
-  *zoom: 1;
-  	/*& a{
+  height: 3em;*zoom:1;
+  /*& a{
   		color: $bgOtherAccentColor;
   		float: left;
   		padding: 1em;
@@ -1712,7 +1711,7 @@ body.roomview #footer ul {
   clear: both;
 }
 #header-global h1 {
-  background: #111;
+  /* background: #111; */
   position: absolute;
   top: -0.2em;
   left: 50%;
@@ -1722,11 +1721,11 @@ body.roomview #footer ul {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-#header-global h1 span {
-  display: block;
-  overflow: hidden;
-  text-indent: -999em;
-  margin: 0 0 0 0.1em;
+h1 {
+  /* display: block; */
+  /* overflow: hidden; */
+  /* text-indent: -999em; */
+  /* margin: 0 0 0 0.1em; */
 }
 #header-global button {
   height: 2em;
@@ -1879,7 +1878,7 @@ body.roomview #footer ul {
   right: 0;
   top: 0;
   position: absolute;
-  background: magenta;
+  background: #04BAC3;
   padding: 0.3em;
   display: none;
 }
@@ -2237,7 +2236,7 @@ body.roomview #footer ul {
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  background: magenta;
+  background: #00FFFF;
 }
 #login-model-window .login-model-container .err-message,
 #login-model-window .login-model-container .success-message {
@@ -2282,7 +2281,7 @@ body.roomview #footer ul {
 #login-model-window .login-model-container .account-actions a {
   font-size: 0.8rem;
   font-weight: bold;
-  color: magenta;
+  color: #00FFFF;
   display: block;
   margin-top: 0.2rem;
 }
@@ -2397,10 +2396,10 @@ body.roomview #footer ul {
 }
 #main-menu-left a.close-menu span {
   font-size: 1em;
-  color: magenta;
+  color: #00FFFF;
 }
 #main-menu-left a.close-menu:hover {
-  color: magenta;
+  color: #00FFFF;
 }
 #main-menu-left a.topdubs-link {
   color: #666;
@@ -2468,10 +2467,10 @@ body.roomview #footer ul {
 }
 #main-menu-right a.close-menu span {
   font-size: 1em;
-  color: magenta;
+  color: rgb(4, 186, 195);
 }
 #main-menu-right a.close-menu:hover {
-  color: magenta;
+  color: #00FFFF;
 }
 #main-menu-right p {
   padding: 1em;
@@ -2632,7 +2631,7 @@ body.roomview #footer ul {
   padding: 0;
 }
 #chat .chatLoading {
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
@@ -2796,7 +2795,7 @@ body.roomview #footer ul {
   color: yellow;
 }
 #chat .chat-container .currentDJ {
-  color: magenta;
+  color: #00FFFF;
 }
 #chat .chat-container ul.chat-main {
   padding: 0;
@@ -2807,7 +2806,7 @@ body.roomview #footer ul {
 }
 #chat .chat-container ul.chat-main .system-warning {
   color: #000;
-  background: magenta;
+  background: #00FFFF;
 }
 #chat .chat-container ul.chat-main .info-msg {
   color: #000;
@@ -2846,7 +2845,7 @@ body.roomview #footer ul {
   padding-right: 0;
 }
 #chat .chat-container ul.chat-main li.system {
-  color: magenta;
+  color: #00FFFF;
   text-transform: uppercase;
   font-size: 0.6em;
   line-height: 1.2em;
@@ -2995,7 +2994,7 @@ body.roomview #footer ul {
   left: 50%;
   margin-top: -2.7em;
   margin-left: -8em;
-  background-color: magenta;
+  background-color: #00FFFF;
   color: #fff;
   padding: 0.5em 0em;
   font-size: 0.75em;
@@ -3205,7 +3204,7 @@ body.roomview #footer ul {
   opacity: 0.6;
 }
 .comments-main .comments-list .comment-item .icon-flag:hover {
-  color: magenta;
+  color: #00FFFF;
 }
 .comments-main .comments-list .comment-item header {
   font-size: 0.75em;
@@ -3218,7 +3217,7 @@ body.roomview #footer ul {
   font-size: 0.73em;
 }
 .comments-main .comments-list .comment-item header a {
-  color: magenta;
+  color: #00FFFF;
 }
 .comments-main .comments-list .comment-item .comment-content {
   font-size: 0.75em;
@@ -3248,7 +3247,7 @@ body.roomview #footer ul {
 .comments-main .comments-list .comment-item .comment-dub .icon-arrow-up:hover, .comments-main .comments-list .comment-item .comment-dub .icon-arrow-up.dubvoted,
 .comments-main .comments-list .comment-item .comment-dub .icon-arrow-down:hover,
 .comments-main .comments-list .comment-item .comment-dub .icon-arrow-down.dubvoted {
-  color: magenta;
+  color: #00FFFF;
 }
 .comments-main .comments-list .comment-item .comment-dub a.delete {
   color: #5a5b5c;
@@ -3256,7 +3255,7 @@ body.roomview #footer ul {
   font-size: 0.75em;
 }
 .comments-main .comments-list .comment-item .comment-dub a.delete:hover {
-  color: magenta;
+  color: #00FFFF;
 }
 
 /* End Comments Styling */
@@ -3341,7 +3340,7 @@ body.roomview #footer ul {
   height: 300px;
 }
 .dub_list li div.replyLogin {
-  color: magenta;
+  color: #00FFFF;
   text-transform: uppercase;
   text-align: center;
   padding: 6px 0;
@@ -3483,7 +3482,7 @@ body.roomview #footer ul {
 }
 .top-dubs-content a.loadMore {
   display: block;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   font-size: 12px;
   text-transform: uppercase;
@@ -3618,7 +3617,7 @@ ul#top-dubs li.dub_cont .dubslist {
   position: absolute;
   top: 0;
   left: 0;
-  background: magenta;
+  background: #00FFFF;
   padding: 5px 10px;
   color: #000;
   font-weight: bold;
@@ -3748,7 +3747,7 @@ ul#top-dubs li.dub_cont .buttonsListen img {
 ul#top-dubs li.dub_cont .loadingComments {
   text-align: center;
   width: 100%;
-  color: magenta;
+  color: #00FFFF;
   font-size: 14px;
   text-transform: uppercase;
   margin: 15px 0 10px 0;
@@ -3961,7 +3960,7 @@ ul#top-dubs .wall-post-list {
   display: inline-block;
 }
 #player-comp .chat-top.active {
-  background: magenta;
+  background: #00FFFF;
   color: black;
 }
 #player-comp .container {
@@ -3989,7 +3988,7 @@ ul#top-dubs .wall-post-list {
   background: cyan;
 }
 #voting-comp li.down.voted {
-  background: magenta;
+  background: #00FFFF;
 }
 #voting-comp li.voted img {
   display: none;
@@ -4146,7 +4145,7 @@ ul#top-dubs .wall-post-list {
   position: absolute;
   top: 0;
   right: 0;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   font-weight: bold;
   font-size: 0.75em;
@@ -4210,7 +4209,7 @@ ul#top-dubs .wall-post-list {
   content: "\e60f";
 }
 #player-controller ul li.add-to-playlist.added {
-  background: magenta;
+  background: #00FFFF;
 }
 #player-controller ul li.add-to-playlist.added span:before {
   color: #000;
@@ -4355,7 +4354,7 @@ ul#top-dubs .wall-post-list {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: magenta;
+  background: #00FFFF;
   position: absolute;
   z-index: 2;
   width: 1em;
@@ -4563,7 +4562,7 @@ ul#top-dubs .wall-post-list {
   cursor: pointer;
 }
 #main_player .player_sharing span:hover {
-  color: magenta;
+  color: #00FFFF;
 }
 #main_player .player_container {
   display: block;
@@ -4580,7 +4579,7 @@ ul#top-dubs .wall-post-list {
 }
 @media only screen and (min-width: 37.5em) {
   #main_player .player_container {
-    height: 25.45em;
+    height: 23.25em;
   }
 }
 #main_player .player_container:hover .videoquality-el.show,
@@ -4646,7 +4645,7 @@ ul#top-dubs .wall-post-list {
 }
 #main_player .player_container .placeholder h5 span {
   position: relative;
-  color: magenta;
+  color: #00FFFF;
   padding-right: 1em;
 }
 #main_player .player_container .placeholder h5 span i {
@@ -4671,7 +4670,7 @@ ul#top-dubs .wall-post-list {
 }
 #main_player .player_container .skip-el {
   cursor: pointer;
-  background: magenta;
+  background: #00FFFF;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
   opacity: 0.4;
   display: none;
@@ -4698,7 +4697,7 @@ ul#top-dubs .wall-post-list {
 #main_player .player_container .error-el {
   top: 50%;
   margin-top: -2em;
-  background: magenta;
+  background: #00FFFF;
   width: 16em;
   margin-left: -8em;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -4820,7 +4819,7 @@ ul#top-dubs .wall-post-list {
   padding: 0.4em;
   text-align: center;
   color: #000;
-  background: magenta;
+  background: #00FFFF;
 }
 #browser ul.playlist-style {
   width: 100%;
@@ -4900,7 +4899,7 @@ ul#top-dubs .wall-post-list {
   margin-left: -20px;
   top: 0;
   text-transform: uppercase;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   padding: 5px 15px;
   font-size: 12px;
@@ -5029,7 +5028,7 @@ ul#top-dubs .wall-post-list {
   background: #000;
 }
 #browser .content-videos ul.browserPlaylistItems > li .progress .bg_current {
-  background: magenta;
+  background: #00FFFF;
   display: block;
   height: 3px;
 }
@@ -5053,7 +5052,7 @@ ul#top-dubs .wall-post-list {
   padding: 0.125em 0.3em;
   color: white;
   font-weight: bold;
-  background: magenta;
+  background: #00FFFF;
   font-size: 0.65em;
 }
 @media only screen and (min-width: 71.875em) {
@@ -5120,7 +5119,7 @@ ul#top-dubs .wall-post-list {
   width: 1em;
   height: 1em;
   margin: 0 0.3em;
-  background: magenta;
+  background: #00FFFF;
 }
 #browser .content-videos ul.browserPlaylistItems > li .actions a.loading-action span:before {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -5179,7 +5178,7 @@ ul#top-dubs .wall-post-list {
   font-weight: bold;
 }
 #browser .content-videos ul.browserPlaylistItems > li .description p span {
-  color: magenta;
+  color: #00FFFF;
   display: inline-block;
   margin: 0;
 }
@@ -5305,7 +5304,7 @@ ul#top-dubs .wall-post-list {
   display: none;
 }
 #browser .browser-content-header .form a.active {
-  outline-color: magenta;
+  outline-color: #00FFFF;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
@@ -5315,8 +5314,8 @@ ul#top-dubs .wall-post-list {
 }
 #browser .browser-content-header .form a.search-btn {
   color: white;
-  background: magenta;
-  outline-color: magenta;
+  background: #00FFFF;
+  outline-color: #00FFFF;
   padding: 0.4em 0.8em;
 }
 #browser .browser-content-header .form a.search-btn span {
@@ -5561,7 +5560,7 @@ ul#top-dubs .wall-post-list {
   padding: 0.4em;
   text-align: center;
   color: #000;
-  background: magenta;
+  background: #00FFFF;
 }
 
 #playlist-queue {
@@ -5698,7 +5697,7 @@ ul#top-dubs .wall-post-list {
   transition-timing-function: ease-in;
 }
 #dropbox span.dragOver {
-  background: magenta;
+  background: #00FFFF;
   color: #000;
 }
 #dropbox li:hover {
@@ -5739,7 +5738,7 @@ ul#top-dubs .wall-post-list {
   bottom: 0;
   right: 0;
   padding: 5px 10px;
-  background: magenta;
+  background: #00FFFF;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
@@ -5866,7 +5865,7 @@ ul#top-dubs .wall-post-list {
   width: 20em;
   margin-left: -10em;
   background: #000;
-  border: 2px solid magenta;
+  border: 2px solid #00FFFF;
 }
 #roomFormUpdate .closebtn {
   position: absolute;
@@ -5902,7 +5901,7 @@ ul#top-dubs .wall-post-list {
 }
 #roomFormUpdate .mid #progress .bar {
   height: 0.2em;
-  background: magenta;
+  background: #00FFFF;
 }
 #roomFormUpdate .mid .help-block {
   margin: 1em 0 0 0;
@@ -6130,7 +6129,7 @@ button.create {
 }
 #room_info ul.voting li.down:hover {
   background-image: url(../images/downvote_hover.png);
-  color: magenta;
+  color: #00FFFF;
 }
 #room_info ul.voting li.down span {
   display: none;
@@ -6162,11 +6161,11 @@ button.create {
   cursor: pointer;
 }
 #room_info .browser-div:hover {
-  color: magenta;
+  color: #00FFFF;
   background-image: url(../images/favorite_button_hover.png);
 }
 #room_info .browser-div:hover a {
-  color: magenta;
+  color: #00FFFF;
 }
 #room_info .browser-div a {
   color: #fff;
@@ -6183,11 +6182,11 @@ button.create {
   padding: 10px 0 0 30px;
 }
 #room_info .add_to_fav:hover {
-  color: magenta;
+  color: #00FFFF;
   background-image: url(../images/play_button_hover.png);
 }
 #room_info .add_to_fav:hover a {
-  color: magenta;
+  color: #00FFFF;
 }
 #room_info .add_to_fav a {
   color: #fff;
@@ -6328,7 +6327,7 @@ button.create {
 }
 @media only screen and (min-width: 37.5em) {
   #container-room-list .room-item.active-room, #container-room-list .room-item.userRoom {
-    outline: 1px solid magenta;
+    outline: 1px solid #00FFFF;
   }
 }
 @media only screen and (min-width: 37.5em) {
@@ -6446,7 +6445,7 @@ button.create {
     right: auto;
     left: 0;
     margin: 0;
-    background: magenta;
+    background: #00FFFF;
     color: #000;
     font-size: 1em;
     font-weight: normal;
@@ -6549,7 +6548,7 @@ button.create {
   /*display:none;*/
 }
 #rooms-list li.activeRoom {
-  outline: 1px solid magenta;
+  outline: 1px solid #00FFFF;
 }
 #rooms-list li .image {
   margin-bottom: 10px;
@@ -6793,7 +6792,7 @@ button.create {
   right: 0.5em;
   top: 50%;
   margin: -1.6em 0 0 0;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   text-align: center;
   padding: 0.5em;
@@ -6829,7 +6828,7 @@ button.create {
 #main_avatar_room #avatar .loadingAva {
   position: absolute;
   z-index: 999;
-  background: magenta;
+  background: #00FFFF;
   top: 3.1em;
   left: 50%;
   margin-left: -7em;
@@ -6932,7 +6931,7 @@ button.create {
 }
 #main_avatar_room .avatar_tools a.loadRoomAva span {
   cursor: pointer;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   padding: 0.5em 0.6em 0.5em 0.5em;
   display: block;
@@ -6983,7 +6982,7 @@ button.create {
   margin: 0;
   padding: 0;
   position: relative;
-  border-bottom: 1px solid magenta;
+  border-bottom: 1px solid #00FFFF;
 }
 #avatar_feature:before, #avatar_feature:after {
   content: " ";
@@ -6993,7 +6992,7 @@ button.create {
   clear: both;
 }
 #avatar_feature .room-feautre-title {
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   padding: 0.5em 1em;
   font-weight: bold;
@@ -7067,7 +7066,7 @@ button.create {
 }
 #private-messages .user_selected_items .result-item span b,
 #private-messages .search-results .search-results-users .result-item span b {
-  color: magenta;
+  color: #00FFFF;
 }
 #private-messages .private-message-details-info,
 #private-messages .private-message-info {
@@ -7117,7 +7116,7 @@ button.create {
 }
 #private-messages .main-message-list .message-header a,
 #private-messages .message-details .message-header a {
-  color: magenta;
+  color: #00FFFF;
   font-size: 0.75em;
   font-weight: bold;
   text-transform: uppercase;
@@ -7187,7 +7186,7 @@ button.create {
   top: 0;
   height: 100%;
   width: 1px;
-  background: magenta;
+  background: #00FFFF;
 }
 #private-messages .main-message-list ul.message-list li.message-item .media,
 #private-messages .message-details ul.message-list li.message-item .media {
@@ -7208,7 +7207,7 @@ button.create {
   padding: 0;
   font-size: 0.95em;
   font-weight: bold;
-  color: magenta;
+  color: #04BAC3;
   overflow: hidden;
 }
 #private-messages .main-message-list ul.message-list li.message-item .message-content p,
@@ -7465,7 +7464,7 @@ button.create {
   top: 0;
   right: -1em;
   z-index: 99999;
-  background: magenta;
+  background: #00FFFF;
   font-size: 0.5em;
   cursor: pointer;
 }
@@ -7575,7 +7574,7 @@ button.create {
   left: 0;
   padding: 0.3em;
   text-align: center;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   text-transform: uppercase;
   font-size: 0.8em;
@@ -7591,7 +7590,7 @@ button.create {
 #profileMainSection .profileView .header .pictureContainer img {
   width: 5em;
   background: #000;
-  border: 0.4em solid magenta;
+  border: 0.4em solid #00FFFF;
 }
 @media only screen and (min-width: 37.5em) {
   #profileMainSection .profileView .header .pictureContainer img {
@@ -7674,7 +7673,7 @@ button.create {
   top: 2.438em;
   width: 9.375em;
   margin-left: -4.688em;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   font-weight: bold;
   text-align: center;
@@ -7735,7 +7734,7 @@ button.create {
   content: "";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
-  background: magenta;
+  background: #00FFFF;
   top: 2.188em;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -7801,7 +7800,7 @@ button.create {
   font-weight: bold;
   padding: 5px 0;
   text-align: center;
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -7948,7 +7947,7 @@ button.create {
   background: #101010;
 }
 #playlistContent ul li span.totalTunes {
-  background: magenta;
+  background: #00FFFF;
   color: #000;
   font-weight: bold;
   position: absolute;
@@ -7962,7 +7961,7 @@ button.create {
   position: fixed;
   z-index: 9999999;
   background: #111;
-  border: 1px solid magenta;
+  border: 1px solid #00FFFF;
   display: none;
   min-width: 19em;
 }
@@ -8022,7 +8021,7 @@ button.create {
   padding: 0.5em 0;
   font-weight: bold;
   color: #000;
-  background: magenta;
+  background: #00FFFF;
 }
 #user_popover .actions a.unmute, #user_popover .actions a.mute {
   width: 22%;
@@ -8286,7 +8285,7 @@ button.create {
   margin: 1px 0 0 0;
 }
 .wall-post-list li .dubs a.downdub:hover {
-  background: magenta;
+  background: #00FFFF;
 }
 .wall-post-list li .dubs a.downdub:hover span {
   background-position: -63px -14px;
@@ -8602,7 +8601,7 @@ ul.wall_comments li a.remove {
   display: inline-block;
 }
 #avatar-window .user_info ul.right li.followerWall {
-  background: magenta;
+  background: #00FFFF;
 }
 #avatar-window .user_info ul#follows li {
   cursor: pointer;
@@ -8817,3 +8816,4 @@ ul.wall_comments li a.remove {
 }
 
 /* End User Styling */
+/* Edited by a_fine_englishman */
