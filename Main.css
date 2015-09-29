@@ -2927,7 +2927,7 @@ h1 {
 }
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle {
   font-weight: 700;
-  color: cyan;
+  color: #FFB300;
 }
 #chat .chat-container ul.chat-main li .image_row {
   position: absolute;
@@ -8816,4 +8816,10 @@ ul.wall_comments li a.remove {
 }
 
 /* End User Styling */
-/* Edited by a_fine_englishman */
+/* Edited by a_fine_englishman */-pt", sans-serif;
+  font-size: 0.85em;
+  margin: 5px 0;
+}
+
+/* End User Styling */
+/* Modified by a_fine_englishman */
