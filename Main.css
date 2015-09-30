@@ -4216,7 +4216,7 @@ ul#top-dubs .wall-post-list {
   content: "\e610";
 }
 #player-controller ul li.volume {
-  width: 7em;
+  width: 10em;
   padding: 0 0.9em 0 0.8em;
   height: 2.6em;
   display: none;
@@ -4259,7 +4259,7 @@ ul#top-dubs .wall-post-list {
 #player-controller ul li.infoContainer .currentSong {
   z-index: 10;
   position: relative;
-  font-size: 0.85em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 #player-controller ul li.infoContainer .progressBg {
