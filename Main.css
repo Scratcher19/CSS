@@ -4199,11 +4199,10 @@ ul#top-dubs .wall-post-list {
   font-family: 'IcoMoon';
   speak: none;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
+  line-height: 1;/* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\e60f";
@@ -4216,7 +4215,7 @@ ul#top-dubs .wall-post-list {
   content: "\e610";
 }
 #player-controller ul li.volume {
-  width: 10em;
+  width: 12em;
   padding: 0 0.9em 0 0.8em;
   height: 2.6em;
   display: block;
@@ -4254,7 +4253,7 @@ ul#top-dubs .wall-post-list {
   position: absolute;
   font-size: 0.8em;
   top: 0.8em;
-  color: #666;
+  color: #E2E2E2;
   z-index: 10;
 }
 #player-controller ul li.infoContainer .currentSong {
@@ -8824,3 +8823,4 @@ ul.wall_comments li a.remove {
 
 /* End User Styling */
 /* Modified by a_fine_englishman */
+/* Version 3.1 FlubbaDub */
