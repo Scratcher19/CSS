@@ -7962,7 +7962,8 @@ button.create {
   background: #111;
   border: 1px solid #00FFFF;
   display: none;
-  min-width: 19em;
+  min-width: 14em;
+  left: 100px !important;
 }
 #user_popover .usercontent {
   cursor: pointer;
