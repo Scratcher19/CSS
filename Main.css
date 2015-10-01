@@ -4046,7 +4046,7 @@ ul#top-dubs .wall-post-list {
 #player-controller .right {
   float: right;
   color: cyan;
-  border-left: 1px #202020 solid;
+  /* border-left: 1px #202020 solid; */
   position: absolute;
   right: 0;
 }
@@ -4083,7 +4083,7 @@ ul#top-dubs .wall-post-list {
 }
 #player-controller ul li {
   float: left;
-  border-right: 1px #202020 solid;
+  /* border-right: 1px #202020 solid; */
   display: block;
 }
 #player-controller ul li.remove-if-iframe {
@@ -4219,7 +4219,8 @@ ul#top-dubs .wall-post-list {
   width: 10em;
   padding: 0 0.9em 0 0.8em;
   height: 2.6em;
-  display: none;
+  display: block;
+  float: right;
 }
 @media only screen and (min-width: 31.25em) {
   #player-controller ul li.volume {
