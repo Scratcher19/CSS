@@ -270,8 +270,7 @@ td {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
+  line-height: 1;/* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -314,6 +313,8 @@ td {
 
 .icon-close:before {
   content: "\e627";
+  padding: 32em;
+  font-size: 0.6em;
 }
 
 .icon-arrow-up:before {
@@ -6684,8 +6685,7 @@ button.create {
   width: 100%;
   max-width: 68em;
   position: relative;
-  overflow: hidden;
-  *zoom: 1;
+  overflow: hidden;*zoom:1;
   margin-top: 3em;
 }
 #main-room:before, #main-room:after {
@@ -7431,7 +7431,7 @@ button.create {
 }
 #profileMainSection .profileView .infoProfile h2 {
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 500;
   float: left;
   max-width: 10em;
   margin: 0 0 0 7em;
@@ -7461,8 +7461,8 @@ button.create {
   position: absolute;
   color: #000;
   padding: 0.3em;
-  top: 0;
-  right: -1em;
+  top: 0.6em;
+  right: -3.5em;
   z-index: 99999;
   background: #00FFFF;
   font-size: 0.5em;
@@ -7558,7 +7558,7 @@ button.create {
   clear: both;
 }
 #profileMainSection .profileView .header .pictureContainer {
-  margin: -1.875em 0 0 1.250em;
+  margin: -1.24em 0 0 0em;
   display: inline-block;
   -moz-border-radius: 0.125em;
   -webkit-border-radius: 0.125em;
@@ -7590,11 +7590,11 @@ button.create {
 #profileMainSection .profileView .header .pictureContainer img {
   width: 5em;
   background: #000;
-  border: 0.4em solid #00FFFF;
+  border: 0.25em solid #00FFFF;
 }
 @media only screen and (min-width: 37.5em) {
   #profileMainSection .profileView .header .pictureContainer img {
-    width: 9.375em;
+    width: 9.5em;
   }
 }
 #profileMainSection .profileView .header .pictureContainer span {
@@ -7654,10 +7654,9 @@ button.create {
 }
 #profileMainSection .profileView .contentMainProfile {
   position: relative;
-  margin: 30px 0 0 0;
+  margin: 1em 0 0 0;
   width: 100%;
-  overflow: hidden;
-  *zoom: 1;
+  overflow: hidden;*zoom:1;
 }
 #profileMainSection .profileView .contentMainProfile:before, #profileMainSection .profileView .contentMainProfile:after {
   content: " ";
@@ -8823,4 +8822,4 @@ ul.wall_comments li a.remove {
 
 /* End User Styling */
 /* Modified by a_fine_englishman */
-/* Version 3.1 FlubbaDub */
+/* Version 3.2 FlubbaDub */
