@@ -313,7 +313,7 @@ td {
 
 .icon-close:before {
   content: "\e627";
-  padding: 32em;
+  padding: 0.3em;
   font-size: 0.6em;
 }
 
@@ -7963,7 +7963,7 @@ button.create {
   border: 1px solid #00FFFF;
   display: none;
   min-width: 14em;
-  left: 100px !important;
+  left: 132px !important;
 }
 #user_popover .usercontent {
   cursor: pointer;
@@ -8823,4 +8823,4 @@ ul.wall_comments li a.remove {
 
 /* End User Styling */
 /* Modified by a_fine_englishman */
-/* Version 3.2 FlubbaDub */
+/* Version 3.3 FlubbaDub */
