@@ -324,7 +324,7 @@ display: block;
 position: absolute;
 right: 0;
 top: 0;
-}
+color: rgb(35, 35, 35);}
 
 .icon-arrow-up:before {
   content: "\e606";
