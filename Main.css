@@ -445,16 +445,10 @@ color: rgb(35, 35, 35);}
 
 .icon-facebook:before {
   content: "\e616";
-  padding: 3px 10px 10px 10px !important;
-  position: absolute !important;
-  font-size: 1.4em;
 }
 
 .icon-twitter:before {
   content: "\e617";
-  padding: 3px 10px 10px 30px !important;
-  position: absolute !important;
-  font-size: 1.4em;
 }
 
 /* Begin Main Styling */
@@ -8837,4 +8831,4 @@ ul.wall_comments li a.remove {
 
 /* End User Styling */
 /* Modified by a_fine_englishman */
-/* Version 3.5 FlubbaDub */
+/* Version 3.4 FlubbaDub */
