@@ -4748,6 +4748,7 @@ ul#top-dubs .wall-post-list {
   cursor: pointer;
   display: block;
   position: absolute;
+  outline: transparent !important;
   -moz-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
