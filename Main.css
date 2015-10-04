@@ -4599,7 +4599,9 @@ ul#top-dubs .wall-post-list {
     height: 23.25em;
   }
 }
-#main_player .player_container:hover .videoquality-el.show,
+#main_player .player_container:hover .hideVideo-el.show,
+#main_player .player_container:hover .videoquality-el.show, 
+#main_player .player_container:hover .hideVideo-el.show,
 #main_player .player_container:hover .refresh-el.show {
   display: block;
 }
@@ -4710,6 +4712,14 @@ ul#top-dubs .wall-post-list {
   top: 0;
   margin: 0;
   cursor: pointer;
+}
+#main_player .player_container .hideVideo-el {
+  background: cyan;
+  left: calc(100% - 10em);
+  top: calc(100% - 47px);
+  margin: 0;
+  cursor: pointer;
+  /* display: block; */
 }
 #main_player .player_container .error-el {
   top: 50%;
@@ -8840,4 +8850,4 @@ ul.wall_comments li a.remove {
 
 /* End User Styling */
 /* Modified by a_fine_englishman */
-/* Version 3.5 FlubbaDub */
+/* Version 3.5.1 FlubbaDub */
